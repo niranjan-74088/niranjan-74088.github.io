@@ -18,12 +18,12 @@
 </head>
 <body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-indigo-500 selection:text-white">
 
-    <!-- NAV BAR -->
-    <nav class="sticky top-0 z-50 border-b border-zinc-800/50 bg-zinc-950/70 backdrop-blur-md">
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 border-b border-white/5 bg-zinc-950/70 backdrop-blur-md">
         <div class="mx-auto flex max-w-6xl items-center justify-between p-4">
             <a href="#" class="text-xl font-bold tracking-tight text-white bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">NIRANJAN.DEV</a>
-            <div class="hidden space-x-6 text-sm font-medium text-zinc-400 md:flex">
-                <a href="#about" class="transition-colors hover:text-white">Profile</a>
+            <div class="hidden space-x-8 text-sm font-medium text-zinc-400 md:flex">
+                <a href="#about" class="transition-colors hover:text-white">About</a>
                 <a href="#skills" class="transition-colors hover:text-white">Skills</a>
                 <a href="#projects" class="transition-colors hover:text-white">Projects</a>
                 <a href="#education" class="transition-colors hover:text-white">Education</a>
@@ -31,19 +31,18 @@
             <div class="flex gap-4 items-center">
                 <a href="https://github.com/niranjan-74088" target="_blank" class="text-zinc-400 hover:text-white transition-colors"><i data-lucide="github" class="h-5 w-5"></i></a>
                 <a href="https://linkedin.com/in/niranjan-kumar-a35110276" target="_blank" class="text-zinc-400 hover:text-white transition-colors"><i data-lucide="linkedin" class="h-5 w-5"></i></a>
-                <a href="#contact" class="hidden sm:inline-block rounded-full bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-200 border border-zinc-800 transition-all hover:bg-zinc-800 hover:border-zinc-700">Contact</a>
+                <a href="#contact" class="hidden sm:inline-block rounded-full bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-200 border border-white/10 transition-all hover:bg-zinc-800 hover:border-white/20">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- HERO SECTION -->
-    <section class="relative mx-auto max-w-6xl px-4 py-20 md:py-28">
-        <!-- Ambient Glow -->
-        <div class="absolute top-1/4 -z-10 h-72 w-72 rounded-full bg-indigo-600/10 blur-[128px]"></div>
+    <section class="relative mx-auto max-w-6xl px-4 py-20 md:py-32">
+        <!-- Premium Ambient Background Glow -->
+        <div class="absolute top-1/4 -z-10 h-80 w-80 rounded-full bg-indigo-600/10 blur-[130px]"></div>
         
         <div class="flex flex-col-reverse items-center gap-12 md:flex-row md:justify-between md:gap-16">
-            
-            <!-- TEXT BOX -->
+            <!-- Text Content -->
             <div class="flex-1 text-center md:text-left space-y-5 max-w-2xl">
                 <span class="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-400 border border-indigo-500/20">
                     <span class="h-1.5 w-1.5 rounded-full bg-indigo-400 animate-pulse"></span> B.Sc. (Hons) DSAI @ IIT Guwahati
@@ -58,118 +57,123 @@
                 
                 <div class="pt-4 flex flex-wrap gap-4 justify-center md:justify-start">
                     <a href="#projects" class="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 font-semibold text-white transition-all hover:bg-indigo-500 shadow-lg shadow-indigo-600/20">
-                        View System Architectures <i data-lucide="arrow-right" class="h-4 w-4"></i>
+                        View Systems <i data-lucide="arrow-right" class="h-4 w-4"></i>
                     </a>
-                    <a href="mailto:kumarniranjan80323@gmail.com" class="inline-flex items-center gap-2 rounded-xl bg-zinc-900 px-6 py-3 font-semibold text-zinc-300 border border-zinc-800 transition-all hover:bg-zinc-800">
+                    <a href="mailto:kumarniranjan80323@gmail.com" class="inline-flex items-center gap-2 rounded-xl bg-zinc-900 px-6 py-3 font-semibold text-zinc-300 border border-white/5 transition-all hover:bg-zinc-800">
                         Email Me
                     </a>
                 </div>
             </div>
 
-            <!-- PICTURE CONTAINER -->
+            <!-- Profile Picture with interactive ring -->
             <div class="flex-shrink-0 md:flex-1 flex justify-center md:justify-end relative group">
                 <img 
                     src="image.png.png"  
                     alt="Niranjan Kumar" 
-                    class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-zinc-800 shadow-2xl transition-all duration-500 group-hover:border-indigo-500/50"
+                    class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-zinc-900 shadow-2xl transition-all duration-500 group-hover:border-indigo-500/40"
                 />
-                <div class="absolute inset-x-0 mx-auto w-64 h-64 md:w-80 md:h-80 rounded-full border border-indigo-500/0 group-hover:border-indigo-500/30 group-hover:scale-105 transition-all duration-500 pointer-events-none"></div>
+                <div class="absolute inset-x-0 mx-auto w-64 h-64 md:w-80 md:h-80 rounded-full border border-indigo-500/0 group-hover:border-indigo-500/20 group-hover:scale-105 transition-all duration-500 pointer-events-none"></div>
             </div>
-
         </div>
     </section>
 
-    <hr class="border-zinc-900 mx-auto max-w-5xl">
+    <hr class="border-white/5 mx-auto max-w-5xl">
 
-    <!-- ANALYTICAL PROFILE SECTION -->
-    <section id="about" class="mx-auto max-w-5xl px-4 py-20">
+    <!-- ABOUT SECTION -->
+    <section id="about" class="mx-auto max-w-5xl px-4 py-24 relative">
+        <div class="absolute top-1/2 left-0 -z-10 h-64 w-64 -translate-y-1/2 rounded-full bg-indigo-600/5 blur-[100px]"></div>
+
         <div class="grid gap-12 md:grid-cols-3">
             <div class="md:col-span-1">
-                <h2 class="text-2xl font-bold text-white tracking-tight">Analytical Profile</h2>
+                <h2 class="text-3xl font-bold bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent tracking-tight">About</h2>
                 <p class="mt-2 text-sm text-zinc-500">Core competencies and engineering focus.</p>
             </div>
             <div class="space-y-6 md:col-span-2 text-zinc-400 leading-relaxed">
                 <p>
-                    I specialize in <strong>Quantitative Analysis, Multimodal Machine Learning, Transformer Architectures, and Document Intelligence</strong>. My algorithmic foundation is deeply rooted in Data Structures and Algorithms (Trees, Graphs, DP) with a strict emphasis on runtime and space optimization.
+                    I approach data challenges mathematically, specializing in <strong class="text-zinc-200">Quantitative Analysis, Multimodal Machine Learning, Transformer Architectures, and Document Intelligence</strong>. My core technical target is centered on deploying stable models that process signals and data matrices under strict resource and latency budgets.
                 </p>
                 
-                <!-- METRICS GRID -->
+                <!-- Metrics Grid Overlay -->
                 <div class="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-4">
-                    <div class="rounded-xl border border-zinc-900 bg-zinc-900/30 p-4">
-                        <div class="text-2xl font-bold text-white">IIT G</div>
-                        <div class="text-xs text-zinc-500 mt-1">B.Sc. Honors DSAI</div>
+                    <div class="group rounded-2xl border border-indigo-500/20 bg-gradient-to-br from-indigo-500/10 to-transparent p-5 backdrop-blur-md transition-all hover:border-indigo-500/40 hover:bg-indigo-500/10">
+                        <div class="text-2xl font-bold text-indigo-300 drop-shadow-[0_0_10px_rgba(165,180,252,0.4)]">IIT G</div>
+                        <div class="text-xs text-zinc-400 mt-1">B.Sc. Hons DSAI</div>
                     </div>
-                    <div class="rounded-xl border border-zinc-900 bg-zinc-900/30 p-4">
-                        <div class="text-2xl font-bold text-white">< 200ms</div>
-                        <div class="text-xs text-zinc-500 mt-1">Inference Latency</div>
+                    <div class="group rounded-2xl border border-purple-500/20 bg-gradient-to-br from-purple-500/10 to-transparent p-5 backdrop-blur-md transition-all hover:border-purple-500/40 hover:bg-purple-500/10">
+                        <div class="text-2xl font-bold text-purple-300 drop-shadow-[0_0_10px_rgba(216,180,254,0.4)]">< 200ms</div>
+                        <div class="text-xs text-zinc-400 mt-1">Inference Latency</div>
                     </div>
-                    <div class="rounded-xl border border-zinc-900 bg-zinc-900/30 p-4">
-                        <div class="text-2xl font-bold text-white">DSA</div>
-                        <div class="text-xs text-zinc-500 mt-1">Runtime Optimization</div>
+                    <div class="group rounded-2xl border border-pink-500/20 bg-gradient-to-br from-pink-500/10 to-transparent p-5 backdrop-blur-md transition-all hover:border-pink-500/40 hover:bg-pink-500/10">
+                        <div class="text-2xl font-bold text-pink-300 drop-shadow-[0_0_10px_rgba(249,168,212,0.4)]">DSA</div>
+                        <div class="text-xs text-zinc-400 mt-1">Optimization Focus</div>
                     </div>
-                    <div class="rounded-xl border border-zinc-900 bg-zinc-900/30 p-4">
-                        <div class="text-2xl font-bold text-white">NDE</div>
-                        <div class="text-xs text-zinc-500 mt-1">RF Sensor Data Exp.</div>
+                    <div class="group rounded-2xl border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 to-transparent p-5 backdrop-blur-md transition-all hover:border-emerald-500/40 hover:bg-emerald-500/10">
+                        <div class="text-2xl font-bold text-emerald-300 drop-shadow-[0_0_10px_rgba(110,231,183,0.4)]">NDE</div>
+                        <div class="text-xs text-zinc-400 mt-1">RF Sensor Data</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- TECHNICAL & SYSTEMS SKILLS SECTION -->
-    <section id="skills" class="bg-zinc-900/20 py-20 border-y border-zinc-900/50">
-        <div class="mx-auto max-w-5xl px-4">
-            <h2 class="text-2xl font-bold text-white text-center tracking-tight">Technical & Systems Skills</h2>
-            <p class="text-center text-zinc-500 text-sm mt-1 mb-12">Languages, AI Frameworks, and Deployment Infrastructures</p>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="relative py-24 border-y border-white/5 bg-zinc-950/40 overflow-hidden">
+        <div class="relative mx-auto max-w-5xl px-4">
+            <h2 class="text-3xl font-bold bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent text-center tracking-tight">Skills</h2>
+            <p class="text-center text-zinc-500 text-sm mt-2 mb-16">Languages, AI Frameworks, and Deployment Infrastructures</p>
             
             <div class="grid gap-6 sm:grid-cols-3">
-                <!-- Languages -->
-                <div class="rounded-2xl border border-zinc-900 bg-zinc-950 p-6">
-                    <div class="flex items-center gap-3 text-indigo-400 mb-4">
-                        <i data-lucide="code-2" class="h-5 w-5"></i>
-                        <h3 class="font-semibold text-white">Core Languages</h3>
+                <!-- Core Languages (Blue Accent) -->
+                <div class="rounded-3xl border border-blue-500/10 bg-gradient-to-b from-blue-500/5 to-transparent p-8 backdrop-blur-xl hover:border-blue-500/30 transition-all duration-500">
+                    <div class="flex flex-col items-center text-center gap-4 mb-6">
+                        <div class="p-3 rounded-2xl bg-blue-500/10 ring-1 ring-blue-500/20">
+                            <i data-lucide="code-2" class="h-6 w-6 text-blue-400"></i>
+                        </div>
+                        <h3 class="font-semibold text-zinc-200">Languages</h3>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Python</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">C/C++</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">CUDA</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Java</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">SQL</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">R</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">MATLAB</span>
-                    </div>
-                </div>
-
-                <!-- AI / ML Engines & DSP -->
-                <div class="rounded-2xl border border-zinc-900 bg-zinc-950 p-6">
-                    <div class="flex items-center gap-3 text-purple-400 mb-4">
-                        <i data-lucide="brain" class="h-5 w-5"></i>
-                        <h3 class="font-semibold text-white">AI, ML & Signals</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">PyTorch</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">TensorFlow</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Scikit-learn</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">CNNs & RNNs</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Pandas & NumPy</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">DSP / Fourier</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">SciPy</span>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="rounded-xl bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 border border-blue-500/20">Python</span>
+                        <span class="rounded-xl bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 border border-blue-500/20">C/C++</span>
+                        <span class="rounded-xl bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 border border-blue-500/20">CUDA</span>
+                        <span class="rounded-xl bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 border border-blue-500/20">SQL</span>
+                        <span class="rounded-xl bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 border border-blue-500/20">Java & R</span>
+                        <span class="rounded-xl bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 border border-blue-500/20">MATLAB</span>
                     </div>
                 </div>
 
-                <!-- Backend & Infra -->
-                <div class="rounded-2xl border border-zinc-900 bg-zinc-950 p-6">
-                    <div class="flex items-center gap-3 text-pink-400 mb-4">
-                        <i data-lucide="server" class="h-5 w-5"></i>
-                        <h3 class="font-semibold text-white">Backend & Deploy</h3>
+                <!-- AI / ML & DSP (Purple Accent) -->
+                <div class="rounded-3xl border border-purple-500/10 bg-gradient-to-b from-purple-500/5 to-transparent p-8 backdrop-blur-xl hover:border-purple-500/30 transition-all duration-500 relative sm:-translate-y-4">
+                    <div class="flex flex-col items-center text-center gap-4 mb-6">
+                        <div class="p-3 rounded-2xl bg-purple-500/10 ring-1 ring-purple-500/20">
+                            <i data-lucide="brain" class="h-6 w-6 text-purple-400"></i>
+                        </div>
+                        <h3 class="font-semibold text-zinc-200">AI & Signals</h3>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">FastAPI</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">REST APIs</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Microservices</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Linux (Ubuntu)</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Git/GitHub</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Joblib</span>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="rounded-xl bg-purple-500/10 px-3 py-1.5 text-xs font-medium text-purple-200 border border-purple-500/20">PyTorch</span>
+                        <span class="rounded-xl bg-purple-500/10 px-3 py-1.5 text-xs font-medium text-purple-200 border border-purple-500/20">TensorFlow</span>
+                        <span class="rounded-xl bg-purple-500/10 px-3 py-1.5 text-xs font-medium text-purple-200 border border-purple-500/20">Scikit-learn</span>
+                        <span class="rounded-xl bg-purple-500/10 px-3 py-1.5 text-xs font-medium text-purple-200 border border-purple-500/20">CNNs & RNNs</span>
+                        <span class="rounded-xl bg-purple-500/10 px-3 py-1.5 text-xs font-medium text-purple-200 border border-purple-500/20">DSP Analysis</span>
+                        <span class="rounded-xl bg-purple-500/10 px-3 py-1.5 text-xs font-medium text-purple-200 border border-purple-500/20">Pandas & SciPy</span>
+                    </div>
+                </div>
+
+                <!-- Backend & Deploy (Teal Accent) -->
+                <div class="rounded-3xl border border-teal-500/10 bg-gradient-to-b from-teal-500/5 to-transparent p-8 backdrop-blur-xl hover:border-teal-500/30 transition-all duration-500">
+                    <div class="flex flex-col items-center text-center gap-4 mb-6">
+                        <div class="p-3 rounded-2xl bg-teal-500/10 ring-1 ring-teal-500/20">
+                            <i data-lucide="server" class="h-6 w-6 text-teal-400"></i>
+                        </div>
+                        <h3 class="font-semibold text-zinc-200">Deployment</h3>
+                    </div>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="rounded-xl bg-teal-500/10 px-3 py-1.5 text-xs font-medium text-teal-200 border border-teal-500/20">FastAPI</span>
+                        <span class="rounded-xl bg-teal-500/10 px-3 py-1.5 text-xs font-medium text-teal-200 border border-teal-500/20">REST APIs</span>
+                        <span class="rounded-xl bg-teal-500/10 px-3 py-1.5 text-xs font-medium text-teal-200 border border-teal-500/20">Microservices</span>
+                        <span class="rounded-xl bg-teal-500/10 px-3 py-1.5 text-xs font-medium text-teal-200 border border-teal-500/20">Linux Shell</span>
+                        <span class="rounded-xl bg-teal-500/10 px-3 py-1.5 text-xs font-medium text-teal-200 border border-teal-500/20">Git / GitHub</span>
+                        <span class="rounded-xl bg-teal-500/10 px-3 py-1.5 text-xs font-medium text-teal-200 border border-teal-500/20">Joblib Serialization</span>
                     </div>
                 </div>
             </div>
@@ -177,102 +181,123 @@
     </section>
 
     <!-- PROJECTS SECTION -->
-    <section id="projects" class="mx-auto max-w-5xl px-4 py-20">
-        <h2 class="text-2xl font-bold text-white tracking-tight">Selected Engineering Projects</h2>
-        <p class="text-sm text-zinc-500 mt-1 mb-10">End-to-end architectures, modeling, and deployments.</p>
+    <section id="projects" class="mx-auto max-w-5xl px-4 py-24">
+        <h2 class="text-3xl font-bold bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent tracking-tight">Projects</h2>
+        <p class="text-sm text-zinc-500 mt-2 mb-12">End-to-end ML architectures and low-latency code deployments.</p>
         
-        <div class="grid gap-6 sm:grid-cols-2">
-            <!-- Project 1 -->
-            <div class="group rounded-2xl border border-zinc-900 bg-zinc-900/20 overflow-hidden transition-all hover:border-zinc-800">
-                <div class="p-6">
+        <div class="grid gap-8 sm:grid-cols-2">
+            <!-- Sentiment Analytics System -->
+            <div class="group relative rounded-3xl border border-white/5 bg-zinc-900/30 p-8 backdrop-blur-md overflow-hidden transition-all duration-500 hover:border-indigo-500/50 hover:bg-zinc-900/60 hover:shadow-[0_0_40px_-15px_rgba(99,102,241,0.4)]">
+                <div class="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-indigo-500/10 blur-3xl transition-all duration-500 group-hover:bg-indigo-500/20"></div>
+                
+                <div class="relative z-10">
                     <div class="flex justify-between items-start">
-                        <h3 class="text-lg font-bold text-white group-hover:text-indigo-400 transition-colors">Production-Ready Sentiment Analytics System</h3>
-                        <a href="https://github.com/niranjan-74088" class="text-zinc-500 hover:text-white" target="_blank"><i data-lucide="github" class="h-5 w-5"></i></a>
+                        <h3 class="text-xl font-bold text-zinc-100 group-hover:text-indigo-300 transition-colors">Production Sentiment Analytics</h3>
+                        <a href="https://github.com/niranjan-74088" class="text-zinc-500 hover:text-white transition-transform hover:scale-110" target="_blank"><i data-lucide="github" class="h-6 w-6"></i></a>
                     </div>
-                    <ul class="mt-4 space-y-2 text-sm text-zinc-400 list-disc list-outside ml-4">
-                        <li>Engineered an end-to-end NLP classification pipeline on a 50,000+ record dataset (Sentiment140) utilizing optimized TF-IDF vectorization and Logistic Regression.</li>
-                        <li>Architected and deployed a high-performance REST API using FastAPI featuring dynamic confidence scoring and microsecond-level query parsing.</li>
-                        <li>Optimized inference infrastructure to consistently achieve sub-200ms latency, utilizing joblib for streamlined model serialization in a native Ubuntu environment.</li>
+                    <ul class="mt-5 space-y-3 text-sm text-zinc-400 list-disc list-outside ml-4 marker:text-indigo-500/50">
+                        <li>Engineered an NLP classification pipeline on a 50k+ record dataset utilizing optimized TF-IDF extraction frameworks.</li>
+                        <li>Architected a custom REST API using FastAPI featuring dynamic confidence evaluation and microsecond token parsing.</li>
+                        <li>Optimized inference architectures to consistently maintain sub-200ms processing delay thresholds via joblib.</li>
                     </ul>
-                    <div class="mt-6 flex flex-wrap gap-1.5">
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Python</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">FastAPI</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Scikit-learn</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Linux</span>
+                    <div class="mt-8 flex flex-wrap gap-2">
+                        <span class="text-xs font-semibold text-indigo-300 px-3 py-1 bg-indigo-500/10 rounded-lg border border-indigo-500/20">FastAPI</span>
+                        <span class="text-xs font-semibold text-zinc-300 px-3 py-1 bg-white/5 rounded-lg border border-white/10">Python</span>
+                        <span class="text-xs font-semibold text-zinc-300 px-3 py-1 bg-white/5 rounded-lg border border-white/10">Scikit-learn</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="group rounded-2xl border border-zinc-900 bg-zinc-900/20 overflow-hidden transition-all hover:border-zinc-800">
-                <div class="p-6">
+            <!-- Student Performance Model -->
+            <div class="group relative rounded-3xl border border-white/5 bg-zinc-900/30 p-8 backdrop-blur-md overflow-hidden transition-all duration-500 hover:border-pink-500/50 hover:bg-zinc-900/60 hover:shadow-[0_0_40px_-15px_rgba(236,72,153,0.4)]">
+                <div class="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-pink-500/10 blur-3xl transition-all duration-500 group-hover:bg-pink-500/20"></div>
+
+                <div class="relative z-10">
                     <div class="flex justify-between items-start">
-                        <h3 class="text-lg font-bold text-white group-hover:text-indigo-400 transition-colors">Predictive Student Performance Model</h3>
-                        <a href="https://github.com/niranjan-74088" class="text-zinc-500 hover:text-white" target="_blank"><i data-lucide="github" class="h-5 w-5"></i></a>
+                        <h3 class="text-xl font-bold text-zinc-100 group-hover:text-pink-300 transition-colors">Predictive Performance Engine</h3>
+                        <a href="https://github.com/niranjan-74088" class="text-zinc-500 hover:text-white transition-transform hover:scale-110" target="_blank"><i data-lucide="github" class="h-6 w-6"></i></a>
                     </div>
-                    <ul class="mt-4 space-y-2 text-sm text-zinc-400 list-disc list-outside ml-4">
-                        <li>Developed, evaluated, and benchmarked predictive risk frameworks using Logistic Regression, Decision Trees, and Random Forest architectures.</li>
-                        <li>Executed rigorous data cleaning, EDA, and automated feature synthesis to extract predictive behavioral markers.</li>
-                        <li>Systematically mitigated model overfitting and enhanced generalization accuracy through strict k-fold cross-validation and hyperparameter tuning.</li>
+                    <ul class="mt-5 space-y-3 text-sm text-zinc-400 list-disc list-outside ml-4 marker:text-pink-500/50">
+                        <li>Benchmarked student risk trends using structural Logistic Regression, Decision Trees, and Random Forest matrices.</li>
+                        <li>Executed detailed data cleanup, automated feature synthesis, and comprehensive exploratory data processing (EDA).</li>
+                        <li>Controlled structural model overfitting issues by enforcing strict k-fold cross-validation routines.</li>
                     </ul>
-                    <div class="mt-6 flex flex-wrap gap-1.5">
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Python</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Scikit-learn</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Predictive Analytics</span>
+                    <div class="mt-8 flex flex-wrap gap-2">
+                        <span class="text-xs font-semibold text-pink-300 px-3 py-1 bg-pink-500/10 rounded-lg border border-pink-500/20">Predictive Modeling</span>
+                        <span class="text-xs font-semibold text-zinc-300 px-3 py-1 bg-white/5 rounded-lg border border-white/10">Python</span>
+                        <span class="text-xs font-semibold text-zinc-300 px-3 py-1 bg-white/5 rounded-lg border border-white/10">Scikit-learn</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- EDUCATION & CERTIFICATIONS SECTION -->
-    <section id="education" class="mx-auto max-w-5xl px-4 py-20 border-t border-zinc-900">
-        <div class="grid gap-12 md:grid-cols-2">
-            <!-- Education Box -->
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="mx-auto max-w-5xl px-4 py-24 border-t border-white/5">
+        <div class="grid gap-16 md:grid-cols-2">
+            <!-- Academic Background -->
             <div>
-                <h2 class="text-2xl font-bold text-white tracking-tight mb-6">Education</h2>
-                <div class="rounded-2xl border border-zinc-900 bg-zinc-900/10 p-6 relative">
-                    <span class="text-xs font-semibold text-indigo-400 tracking-wider uppercase">2023 — Sep 2027 (Expected)</span>
-                    <h3 class="text-lg font-bold text-white mt-1">B.Sc. (Honours) in Data Science & Artificial Intelligence</h3>
-                    <p class="text-sm text-zinc-400 mt-1">Indian Institute of Technology (IIT) Guwahati</p>
-                    
-                    <div class="mt-4 pt-4 border-t border-zinc-800">
-                        <p class="text-xs font-semibold text-zinc-300 mb-2">Relevant Coursework:</p>
-                        <p class="text-xs text-zinc-500 leading-relaxed">
-                            Data Structures & Algorithms • Machine Learning • Probability & Statistics • Linear Algebra • Database Systems
-                        </p>
+                <h2 class="text-2xl font-bold text-zinc-100 tracking-tight mb-8 flex items-center gap-3">
+                    <div class="h-8 w-1.5 bg-indigo-500 rounded-full"></div> Education
+                </h2>
+                <div class="group relative rounded-3xl bg-gradient-to-br from-indigo-900/20 to-transparent p-1 border border-indigo-500/20 transition-all hover:shadow-[0_0_30px_-10px_rgba(99,102,241,0.3)]">
+                    <div class="rounded-[22px] bg-zinc-950/80 p-8 backdrop-blur-xl h-full">
+                        <span class="inline-block px-3 py-1 rounded-full bg-indigo-500/10 text-xs font-bold text-indigo-400 tracking-wider uppercase border border-indigo-500/20 mb-4">2023 — Sep 2027 (Expected)</span>
+                        <h3 class="text-xl font-bold text-white leading-tight">B.Sc. (Honours) in Data Science & Artificial Intelligence</h3>
+                        <p class="text-md text-zinc-400 mt-2 font-medium">Indian Institute of Technology (IIT) Guwahati</p>
+                        
+                        <div class="mt-6 pt-6 border-t border-white/10">
+                            <p class="text-xs font-semibold text-zinc-300 mb-3 uppercase tracking-wider">Relevant Coursework</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs text-zinc-400 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">Data Structures & Algorithms</span>
+                                <span class="text-xs text-zinc-400 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">Machine Learning</span>
+                                <span class="text-xs text-zinc-400 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">Probability & Statistics</span>
+                                <span class="text-xs text-zinc-400 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">Linear Algebra</span>
+                                <span class="text-xs text-zinc-400 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">Database Systems</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Certifications Box -->
+            <!-- Credentials/Certifications -->
             <div>
-                <h2 class="text-2xl font-bold text-white tracking-tight mb-6">Professional Credentials</h2>
+                <h2 class="text-2xl font-bold text-zinc-100 tracking-tight mb-8 flex items-center gap-3">
+                    <div class="h-8 w-1.5 bg-purple-500 rounded-full"></div> Credentials
+                </h2>
                 <div class="space-y-4">
-                    <div class="flex items-center justify-between p-4 rounded-xl border border-zinc-900 bg-zinc-900/10 hover:border-zinc-800 transition-colors">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="award" class="h-5 w-5 text-purple-400"></i>
+                    <div class="group flex items-center justify-between p-5 rounded-2xl border border-white/5 bg-white/5 backdrop-blur-sm hover:border-purple-500/30 hover:bg-purple-500/5 transition-all duration-300 hover:translate-x-2 shadow-lg shadow-black/20">
+                        <div class="flex items-center gap-4">
+                            <div class="h-10 w-10 rounded-full bg-purple-500/10 flex items-center justify-center border border-purple-500/20 group-hover:scale-110 transition-transform">
+                                <i data-lucide="award" class="h-5 w-5 text-purple-400"></i>
+                            </div>
                             <div>
-                                <h4 class="text-sm font-semibold text-white">Machine Learning Specialization</h4>
-                                <p class="text-xs text-zinc-500">Coursera</p>
+                                <h4 class="text-sm font-bold text-zinc-100">Machine Learning Specialization</h4>
+                                <p class="text-xs text-zinc-500 mt-0.5">Coursera Specialization</p>
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center justify-between p-4 rounded-xl border border-zinc-900 bg-zinc-900/10 hover:border-zinc-800 transition-colors">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="award" class="h-5 w-5 text-pink-400"></i>
+                    
+                    <div class="group flex items-center justify-between p-5 rounded-2xl border border-white/5 bg-white/5 backdrop-blur-sm hover:border-pink-500/30 hover:bg-pink-500/5 transition-all duration-300 hover:translate-x-2 shadow-lg shadow-black/20">
+                        <div class="flex items-center gap-4">
+                            <div class="h-10 w-10 rounded-full bg-pink-500/10 flex items-center justify-center border border-pink-500/20 group-hover:scale-110 transition-transform">
+                                <i data-lucide="award" class="h-5 w-5 text-pink-400"></i>
+                            </div>
                             <div>
-                                <h4 class="text-sm font-semibold text-white">Python for Data Science</h4>
-                                <p class="text-xs text-zinc-500">Coursera</p>
+                                <h4 class="text-sm font-bold text-zinc-100">Python for Data Science</h4>
+                                <p class="text-xs text-zinc-500 mt-0.5">Coursera Certification</p>
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center justify-between p-4 rounded-xl border border-zinc-900 bg-zinc-900/10 hover:border-zinc-800 transition-colors">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="radio-receiver" class="h-5 w-5 text-indigo-400"></i>
+
+                    <div class="group flex items-center justify-between p-5 rounded-2xl border border-white/5 bg-white/5 backdrop-blur-sm hover:border-teal-500/30 hover:bg-teal-500/5 transition-all duration-300 hover:translate-x-2 shadow-lg shadow-black/20">
+                        <div class="flex items-center gap-4">
+                            <div class="h-10 w-10 rounded-full bg-teal-500/10 flex items-center justify-center border border-teal-500/20 group-hover:scale-110 transition-transform">
+                                <i data-lucide="radio-receiver" class="h-5 w-5 text-teal-400"></i>
+                            </div>
                             <div>
-                                <h4 class="text-sm font-semibold text-white">Domain Expertise</h4>
-                                <p class="text-xs text-zinc-500">Non-Destructive Evaluation (NDE), RF Sensor Data, DSP</p>
+                                <h4 class="text-sm font-bold text-zinc-100">Domain Expertise</h4>
+                                <p class="text-xs text-zinc-500 mt-0.5">NDE, RF Sensor Data, DSP Preprocessing</p>
                             </div>
                         </div>
                     </div>
@@ -282,19 +307,19 @@
     </section>
 
     <!-- CONTACT SECTION -->
-    <section id="contact" class="bg-zinc-900/20 py-20 border-t border-zinc-900">
+    <section id="contact" class="bg-zinc-900/20 py-20 border-t border-white/5">
         <div class="mx-auto max-w-5xl px-4 flex flex-col items-center text-center">
-            <h2 class="text-2xl font-bold text-white tracking-tight">Get In Touch</h2>
+            <h2 class="text-3xl font-bold bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent tracking-tight">Contact</h2>
             <p class="mt-2 text-sm text-zinc-400 max-w-xl">
-                Currently studying at IIT Guwahati and open to engineering, algorithmic, and data science discussions. Reach out via email or connect with me on LinkedIn.
+                Currently studying at IIT Guwahati and open to engineering, algorithmic, and data science discussions. Reach out via email or phone channels.
             </p>
             
-            <div class="mt-8 flex flex-col sm:flex-row items-center gap-6">
-                <a href="mailto:kumarniranjan80323@gmail.com" class="flex items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-950 px-6 py-4 hover:border-indigo-500 hover:bg-zinc-900 transition-all">
+            <div class="mt-8 flex flex-col sm:flex-row items-center gap-6 w-full justify-center">
+                <a href="mailto:kumarniranjan80323@gmail.com" class="flex items-center gap-3 rounded-xl border border-white/5 bg-zinc-950 px-6 py-4 hover:border-indigo-500 hover:bg-zinc-900 transition-all w-full sm:w-auto justify-center">
                     <i data-lucide="mail" class="h-5 w-5 text-indigo-400"></i>
                     <span class="text-sm font-medium text-zinc-300">kumarniranjan80323@gmail.com</span>
                 </a>
-                <a href="tel:+917408833764" class="flex items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-950 px-6 py-4 hover:border-indigo-500 hover:bg-zinc-900 transition-all">
+                <a href="tel:+917408833764" class="flex items-center gap-3 rounded-xl border border-white/5 bg-zinc-950 px-6 py-4 hover:border-indigo-500 hover:bg-zinc-900 transition-all w-full sm:w-auto justify-center">
                     <i data-lucide="phone" class="h-5 w-5 text-indigo-400"></i>
                     <span class="text-sm font-medium text-zinc-300">+91-7408833764</span>
                 </a>
@@ -302,8 +327,8 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="bg-zinc-950 border-t border-zinc-900/60 py-12">
+    <!-- FOOTER WITH 2026 DATE STAMP -->
+    <footer class="bg-zinc-950 border-t border-white/5 py-12">
         <div class="mx-auto max-w-5xl px-4 flex flex-col sm:flex-row items-center justify-between gap-6">
             <p class="text-xs text-zinc-500">&copy; 2026 Niranjan Kumar. Built with Tailwind CSS & Lucide.</p>
             <div class="flex gap-6 text-zinc-500">
@@ -319,6 +344,18 @@
     </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
