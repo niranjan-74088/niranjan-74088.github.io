@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Niranjan Kumar | DSAI Portfolio</title>
+    <title>Niranjan Kumar | IITG Data Science & AI</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts (Inter) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Lucide Icons for high-fidelity UI signs -->
+    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }
@@ -18,60 +18,61 @@
 </head>
 <body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-indigo-500 selection:text-white">
 
-    <!-- NAV BAR (GLASSMORPHISM) -->
+    <!-- NAV BAR -->
     <nav class="sticky top-0 z-50 border-b border-zinc-800/50 bg-zinc-950/70 backdrop-blur-md">
         <div class="mx-auto flex max-w-6xl items-center justify-between p-4">
             <a href="#" class="text-xl font-bold tracking-tight text-white bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">NIRANJAN.DEV</a>
             <div class="hidden space-x-6 text-sm font-medium text-zinc-400 md:flex">
-                <a href="#about" class="transition-colors hover:text-white">About</a>
+                <a href="#about" class="transition-colors hover:text-white">Profile</a>
                 <a href="#skills" class="transition-colors hover:text-white">Skills</a>
-                <a href="#experience" class="transition-colors hover:text-white">Experience</a>
                 <a href="#projects" class="transition-colors hover:text-white">Projects</a>
-                <a href="#publications" class="transition-colors hover:text-white">Research</a>
                 <a href="#education" class="transition-colors hover:text-white">Education</a>
             </div>
-            <a href="#contact" class="rounded-full bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-200 border border-zinc-800 transition-all hover:bg-zinc-800 hover:border-zinc-700">Contact</a>
+            <div class="flex gap-4 items-center">
+                <a href="https://github.com/niranjan-74088" target="_blank" class="text-zinc-400 hover:text-white transition-colors"><i data-lucide="github" class="h-5 w-5"></i></a>
+                <a href="https://linkedin.com/in/niranjan-kumar-a35110276" target="_blank" class="text-zinc-400 hover:text-white transition-colors"><i data-lucide="linkedin" class="h-5 w-5"></i></a>
+                <a href="#contact" class="hidden sm:inline-block rounded-full bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-200 border border-zinc-800 transition-all hover:bg-zinc-800 hover:border-zinc-700">Contact</a>
+            </div>
         </div>
     </nav>
 
-    <!-- HERO SECTION (SPLIT LAYOUT WITH PICTURE RIGHT) -->
-    <section class="relative mx-auto max-w-6xl px-4 py-24 md:py-32">
-        <!-- Ambient Radial Glow Layer -->
+    <!-- HERO SECTION -->
+    <section class="relative mx-auto max-w-6xl px-4 py-20 md:py-28">
+        <!-- Ambient Glow -->
         <div class="absolute top-1/4 -z-10 h-72 w-72 rounded-full bg-indigo-600/10 blur-[128px]"></div>
         
         <div class="flex flex-col-reverse items-center gap-12 md:flex-row md:justify-between md:gap-16">
             
-            <!-- TEXT BOX (LEFT) -->
+            <!-- TEXT BOX -->
             <div class="flex-1 text-center md:text-left space-y-5 max-w-2xl">
                 <span class="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-400 border border-indigo-500/20">
-                    <span class="h-1.5 w-1.5 rounded-full bg-indigo-400 animate-pulse"></span> Open for Fall 2026 MLOps & AI Internships
+                    <span class="h-1.5 w-1.5 rounded-full bg-indigo-400 animate-pulse"></span> B.Sc. (Hons) DSAI @ IIT Guwahati
                 </span>
                 
                 <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
                     Hi, I'm <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Niranjan Kumar</span>
                 </h1>
                 <p class="text-lg text-zinc-400 sm:text-xl leading-relaxed">
-                    Data Science & Artificial Intelligence (DSAI) student passionate about building predictive machine learning models, deploying reliable MLOps pipelines, and unlocking insights from multi-dimensional datasets.
+                    Data Science & AI student focused on architecting resilient end-to-end data pipelines, developing low-latency predictive systems, and applying statistical models to solve complex, data-driven problems.
                 </p>
                 
                 <div class="pt-4 flex flex-wrap gap-4 justify-center md:justify-start">
                     <a href="#projects" class="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 font-semibold text-white transition-all hover:bg-indigo-500 shadow-lg shadow-indigo-600/20">
-                        Explore Models <i data-lucide="arrow-right" class="h-4 w-4"></i>
+                        View System Architectures <i data-lucide="arrow-right" class="h-4 w-4"></i>
                     </a>
-                    <a href="#contact" class="inline-flex items-center gap-2 rounded-xl bg-zinc-900 px-6 py-3 font-semibold text-zinc-300 border border-zinc-800 transition-all hover:bg-zinc-800">
-                        Get In Touch
+                    <a href="mailto:kumarniranjan80323@gmail.com" class="inline-flex items-center gap-2 rounded-xl bg-zinc-900 px-6 py-3 font-semibold text-zinc-300 border border-zinc-800 transition-all hover:bg-zinc-800">
+                        Email Me
                     </a>
                 </div>
             </div>
 
-            <!-- PICTURE CONTAINER (RIGHT) -->
+            <!-- PICTURE CONTAINER -->
             <div class="flex-shrink-0 md:flex-1 flex justify-center md:justify-end relative group">
                 <img 
                     src="image.png.png"  
                     alt="Niranjan Kumar" 
                     class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-zinc-800 shadow-2xl transition-all duration-500 group-hover:border-indigo-500/50"
                 />
-                <!-- Interactive Outer Radar Ring -->
                 <div class="absolute inset-x-0 mx-auto w-64 h-64 md:w-80 md:h-80 rounded-full border border-indigo-500/0 group-hover:border-indigo-500/30 group-hover:scale-105 transition-all duration-500 pointer-events-none"></div>
             </div>
 
@@ -80,143 +81,124 @@
 
     <hr class="border-zinc-900 mx-auto max-w-5xl">
 
-    <!-- ABOUT & CORE METRICS SECTION -->
+    <!-- ANALYTICAL PROFILE SECTION -->
     <section id="about" class="mx-auto max-w-5xl px-4 py-20">
         <div class="grid gap-12 md:grid-cols-3">
             <div class="md:col-span-1">
-                <h2 class="text-2xl font-bold text-white tracking-tight">The Core Footprint</h2>
-                <p class="mt-2 text-sm text-zinc-500">Algorithmic strength and computational benchmarks.</p>
+                <h2 class="text-2xl font-bold text-white tracking-tight">Analytical Profile</h2>
+                <p class="mt-2 text-sm text-zinc-500">Core competencies and engineering focus.</p>
             </div>
             <div class="space-y-6 md:col-span-2 text-zinc-400 leading-relaxed">
                 <p>
-                    I approach problem-solving mathematically, designing data pipelines that balance execution accuracy with inference velocity. Beyond basic algorithm development, my focus centers on the engineering lifecycles of modern systems—translating complex network math into stable, serving containers.
+                    I specialize in <strong>Quantitative Analysis, Multimodal Machine Learning, Transformer Architectures, and Document Intelligence</strong>. My algorithmic foundation is deeply rooted in Data Structures and Algorithms (Trees, Graphs, DP) with a strict emphasis on runtime and space optimization.
                 </p>
                 
-                <!-- FAANG-OPTIMIZED SCORES GRID -->
+                <!-- METRICS GRID -->
                 <div class="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-4">
                     <div class="rounded-xl border border-zinc-900 bg-zinc-900/30 p-4">
-                        <div class="text-2xl font-bold text-white">500+</div>
-                        <div class="text-xs text-zinc-500 mt-1">LeetCode Tasks</div>
+                        <div class="text-2xl font-bold text-white">IIT G</div>
+                        <div class="text-xs text-zinc-500 mt-1">B.Sc. Honors DSAI</div>
                     </div>
                     <div class="rounded-xl border border-zinc-900 bg-zinc-900/30 p-4">
-                        <div class="text-2xl font-bold text-white">Top 10%</div>
-                        <div class="text-xs text-zinc-500 mt-1">Kaggle Rankings</div>
+                        <div class="text-2xl font-bold text-white">< 200ms</div>
+                        <div class="text-xs text-zinc-500 mt-1">Inference Latency</div>
                     </div>
                     <div class="rounded-xl border border-zinc-900 bg-zinc-900/30 p-4">
-                        <div class="text-2xl font-bold text-white">9.4</div>
-                        <div class="text-xs text-zinc-500 mt-1">Academic CGPA</div>
+                        <div class="text-2xl font-bold text-white">DSA</div>
+                        <div class="text-xs text-zinc-500 mt-1">Runtime Optimization</div>
                     </div>
                     <div class="rounded-xl border border-zinc-900 bg-zinc-900/30 p-4">
-                        <div class="text-2xl font-bold text-white">2+</div>
-                        <div class="text-xs text-zinc-500 mt-1">Served MLOps Blocks</div>
+                        <div class="text-2xl font-bold text-white">NDE</div>
+                        <div class="text-xs text-zinc-500 mt-1">RF Sensor Data Exp.</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- TECHNICAL TOOLKIT SECTION -->
+    <!-- TECHNICAL & SYSTEMS SKILLS SECTION -->
     <section id="skills" class="bg-zinc-900/20 py-20 border-y border-zinc-900/50">
         <div class="mx-auto max-w-5xl px-4">
-            <h2 class="text-2xl font-bold text-white text-center tracking-tight">Technical Toolkit</h2>
-            <p class="text-center text-zinc-500 text-sm mt-1 mb-12">Foundational framework layers and data infrastructure</p>
+            <h2 class="text-2xl font-bold text-white text-center tracking-tight">Technical & Systems Skills</h2>
+            <p class="text-center text-zinc-500 text-sm mt-1 mb-12">Languages, AI Frameworks, and Deployment Infrastructures</p>
             
             <div class="grid gap-6 sm:grid-cols-3">
                 <!-- Languages -->
                 <div class="rounded-2xl border border-zinc-900 bg-zinc-950 p-6">
                     <div class="flex items-center gap-3 text-indigo-400 mb-4">
                         <i data-lucide="code-2" class="h-5 w-5"></i>
-                        <h3 class="font-semibold text-white">Core & Databases</h3>
+                        <h3 class="font-semibold text-white">Core Languages</h3>
                     </div>
                     <div class="flex flex-wrap gap-2">
                         <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Python</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">C/C++</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">CUDA</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Java</span>
                         <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">SQL</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">R Language</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">C++</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">PostgreSQL</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">R</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">MATLAB</span>
                     </div>
                 </div>
-                <!-- AI Frameworks -->
+
+                <!-- AI / ML Engines & DSP -->
                 <div class="rounded-2xl border border-zinc-900 bg-zinc-950 p-6">
                     <div class="flex items-center gap-3 text-purple-400 mb-4">
                         <i data-lucide="brain" class="h-5 w-5"></i>
-                        <h3 class="font-semibold text-white">AI / ML Engines</h3>
+                        <h3 class="font-semibold text-white">AI, ML & Signals</h3>
                     </div>
                     <div class="flex flex-wrap gap-2">
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Scikit-Learn</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">TensorFlow / Keras</span>
                         <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">PyTorch</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">TensorFlow</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Scikit-learn</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">CNNs & RNNs</span>
                         <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Pandas & NumPy</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">OpenCV</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">DSP / Fourier</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">SciPy</span>
                     </div>
                 </div>
-                <!-- Systems & Analytics -->
+
+                <!-- Backend & Infra -->
                 <div class="rounded-2xl border border-zinc-900 bg-zinc-950 p-6">
                     <div class="flex items-center gap-3 text-pink-400 mb-4">
-                        <i data-lucide="bar-chart-3" class="h-5 w-5"></i>
-                        <h3 class="font-semibold text-white">Infra & Analytics</h3>
+                        <i data-lucide="server" class="h-5 w-5"></i>
+                        <h3 class="font-semibold text-white">Backend & Deploy</h3>
                     </div>
                     <div class="flex flex-wrap gap-2">
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Git / GitHub</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">PowerBI / Tableau</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Docker</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">AWS S3 / SageMaker</span>
-                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Jupyter Lab</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">FastAPI</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">REST APIs</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Microservices</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Linux (Ubuntu)</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Git/GitHub</span>
+                        <span class="rounded-lg bg-zinc-900 px-2.5 py-1 text-xs text-zinc-300 border border-zinc-800">Joblib</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PROFESSIONAL EXPERIENCE SECTION -->
-    <section id="experience" class="mx-auto max-w-5xl px-4 py-20">
-        <h2 class="text-2xl font-bold text-white tracking-tight mb-2">Professional Experience</h2>
-        <p class="text-sm text-zinc-500 mb-10">Industrial deployments and engineering contributions.</p>
-        
-        <div class="relative border-l border-zinc-800 ml-3 space-y-10">
-            <div class="relative pl-8">
-                <div class="absolute -left-1.5 top-1.5 h-3 w-3 rounded-full border border-indigo-500 bg-zinc-950"></div>
-                <div class="flex flex-wrap items-center justify-between gap-2">
-                    <h3 class="text-lg font-semibold text-white">Data Science Intern</h3>
-                    <span class="text-xs font-medium text-zinc-500">May 2025 - July 2025</span>
-                </div>
-                <p class="text-sm text-indigo-400 mt-0.5">InnovateTech Solutions</p>
-                <ul class="mt-2 text-sm text-zinc-400 list-disc list-inside space-y-1.5 max-w-3xl">
-                    <li>Migrated data validation pipelines to modern structured routines, optimizing computational resource loads across analytical matrix runs.</li>
-                    <li>Designed analytical dashboards linked with live database configurations to support enterprise-level tracking modules.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- HIGH-IMPACT PROJECTS SECTION -->
-    <section id="projects" class="mx-auto max-w-5xl px-4 py-20 border-t border-zinc-900">
-        <h2 class="text-2xl font-bold text-white tracking-tight">Featured AI & Data Engineering Systems</h2>
-        <p class="text-sm text-zinc-500 mt-1 mb-10">Production architectures optimized for data-scaling efficiency.</p>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="mx-auto max-w-5xl px-4 py-20">
+        <h2 class="text-2xl font-bold text-white tracking-tight">Selected Engineering Projects</h2>
+        <p class="text-sm text-zinc-500 mt-1 mb-10">End-to-end architectures, modeling, and deployments.</p>
         
         <div class="grid gap-6 sm:grid-cols-2">
             <!-- Project 1 -->
             <div class="group rounded-2xl border border-zinc-900 bg-zinc-900/20 overflow-hidden transition-all hover:border-zinc-800">
                 <div class="p-6">
                     <div class="flex justify-between items-start">
-                        <h3 class="text-lg font-bold text-white group-hover:text-indigo-400 transition-colors">Customer Churn Predictive Pipeline</h3>
-                        <div class="flex gap-3 text-zinc-500">
-                            <a href="YOUR_GITHUB_LINK" class="hover:text-white" target="_blank"><i data-lucide="github" class="h-5 w-5"></i></a>
-                            <a href="YOUR_DEMO_LINK" class="hover:text-white" target="_blank"><i data-lucide="external-link" class="h-5 w-5"></i></a>
-                        </div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-indigo-400 transition-colors">Production-Ready Sentiment Analytics System</h3>
+                        <a href="https://github.com/niranjan-74088" class="text-zinc-500 hover:text-white" target="_blank"><i data-lucide="github" class="h-5 w-5"></i></a>
                     </div>
-                    <p class="mt-3 text-sm text-zinc-400 leading-relaxed">
-                        Engineered an end-to-end ML model routing pipelines via optimized hyperparameter matrices. Achieved 91.4% execution metrics using XGBoost and detailed feature significance matrices.
-                    </p>
+                    <ul class="mt-4 space-y-2 text-sm text-zinc-400 list-disc list-outside ml-4">
+                        <li>Engineered an end-to-end NLP classification pipeline on a 50,000+ record dataset (Sentiment140) utilizing optimized TF-IDF vectorization and Logistic Regression.</li>
+                        <li>Architected and deployed a high-performance REST API using FastAPI featuring dynamic confidence scoring and microsecond-level query parsing.</li>
+                        <li>Optimized inference infrastructure to consistently achieve sub-200ms latency, utilizing joblib for streamlined model serialization in a native Ubuntu environment.</li>
+                    </ul>
                     <div class="mt-6 flex flex-wrap gap-1.5">
                         <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Python</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Scikit-Learn</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">XGBoost</span>
-                    </div>
-                    <div class="mt-4 pt-4 border-t border-zinc-900/50 flex justify-end">
-                        <a href="YOUR_DEMO_LINK" target="_blank" class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition-colors">
-                            <span class="h-2 w-2 rounded-full bg-emerald-400"></span> Test Live Model Demo →
-                        </a>
+                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">FastAPI</span>
+                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Scikit-learn</span>
+                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Linux</span>
                     </div>
                 </div>
             </div>
@@ -225,44 +207,21 @@
             <div class="group rounded-2xl border border-zinc-900 bg-zinc-900/20 overflow-hidden transition-all hover:border-zinc-800">
                 <div class="p-6">
                     <div class="flex justify-between items-start">
-                        <h3 class="text-lg font-bold text-white group-hover:text-indigo-400 transition-colors">Custom Object Detection Engine</h3>
-                        <div class="flex gap-3 text-zinc-500">
-                            <a href="YOUR_GITHUB_LINK" class="hover:text-white" target="_blank"><i data-lucide="github" class="h-5 w-5"></i></a>
-                            <a href="YOUR_DEMO_LINK" class="hover:text-white" target="_blank"><i data-lucide="external-link" class="h-5 w-5"></i></a>
-                        </div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-indigo-400 transition-colors">Predictive Student Performance Model</h3>
+                        <a href="https://github.com/niranjan-74088" class="text-zinc-500 hover:text-white" target="_blank"><i data-lucide="github" class="h-5 w-5"></i></a>
                     </div>
-                    <p class="mt-3 text-sm text-zinc-400 leading-relaxed">
-                        Trained a deep learning Computer Vision system utilizing fine-tuned neural model configurations. Achieved high-speed edge inferencing matrices with low processing delay parameters.
-                    </p>
+                    <ul class="mt-4 space-y-2 text-sm text-zinc-400 list-disc list-outside ml-4">
+                        <li>Developed, evaluated, and benchmarked predictive risk frameworks using Logistic Regression, Decision Trees, and Random Forest architectures.</li>
+                        <li>Executed rigorous data cleaning, EDA, and automated feature synthesis to extract predictive behavioral markers.</li>
+                        <li>Systematically mitigated model overfitting and enhanced generalization accuracy through strict k-fold cross-validation and hyperparameter tuning.</li>
+                    </ul>
                     <div class="mt-6 flex flex-wrap gap-1.5">
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">PyTorch</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">OpenCV</span>
-                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">YOLOv8</span>
-                    </div>
-                    <div class="mt-4 pt-4 border-t border-zinc-900/50 flex justify-end">
-                        <a href="YOUR_DEMO_LINK" target="_blank" class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition-colors">
-                            <span class="h-2 w-2 rounded-full bg-emerald-400"></span> Test Live Model Demo →
-                        </a>
+                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Python</span>
+                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Scikit-learn</span>
+                        <span class="text-xs font-medium text-zinc-400 px-2 py-0.5 bg-zinc-900 rounded border border-zinc-800">Predictive Analytics</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- RESEARCH & PUBLICATIONS SECTION -->
-    <section id="publications" class="mx-auto max-w-5xl px-4 py-20 border-t border-zinc-900">
-        <h2 class="text-2xl font-bold text-white tracking-tight">Research & Open Source Contributions</h2>
-        <p class="text-sm text-zinc-500 mt-1 mb-8">Deep tech explorations, structural analytical studies, and ecosystem modules.</p>
-        
-        <div class="rounded-2xl border border-zinc-900 bg-zinc-900/10 p-6 flex flex-col sm:flex-row items-start justify-between gap-4 hover:border-zinc-800 transition-all">
-            <div class="space-y-1">
-                <span class="inline-block rounded-md bg-purple-500/10 px-2 py-0.5 text-xs font-medium text-purple-400 border border-purple-500/20 mb-2">Technical Case Study / Pre-print</span>
-                <h3 class="text-lg font-bold text-white">Comparative Evaluation of Gradient Boosting Matrix Architectures vs Deep Vector Variants</h3>
-                <p class="text-sm text-zinc-400 max-w-3xl pt-1">
-                    An architectural analytical evaluation analyzing predictive efficiencies across structured arrays. Explores processing optimizations and threshold delay variables inside edge container configurations.
-                </p>
-            </div>
-            <a href="#" class="rounded-xl bg-zinc-900 p-3 text-zinc-400 hover:text-white border border-zinc-800 transition-all shrink-0"><i data-lucide="book-open" class="h-5 w-5"></i></a>
         </div>
     </section>
 
@@ -273,98 +232,83 @@
             <div>
                 <h2 class="text-2xl font-bold text-white tracking-tight mb-6">Education</h2>
                 <div class="rounded-2xl border border-zinc-900 bg-zinc-900/10 p-6 relative">
-                    <span class="text-xs font-semibold text-indigo-400 tracking-wider uppercase">Graduating 2027</span>
-                    <h3 class="text-lg font-bold text-white mt-1">B.Tech in Data Science & Artificial Intelligence</h3>
-                    <p class="text-sm text-zinc-400">ABC Institute of Technology</p>
-                    <div class="mt-4 flex gap-4 text-xs text-zinc-500">
-                        <span><strong>CGPA:</strong> 9.4/10</span>
-                        <span>•</span>
-                        <span>Scope: Machine Learning, Matrix Calculus, Probability, Big Data</span>
+                    <span class="text-xs font-semibold text-indigo-400 tracking-wider uppercase">2023 — Sep 2027 (Expected)</span>
+                    <h3 class="text-lg font-bold text-white mt-1">B.Sc. (Honours) in Data Science & Artificial Intelligence</h3>
+                    <p class="text-sm text-zinc-400 mt-1">Indian Institute of Technology (IIT) Guwahati</p>
+                    
+                    <div class="mt-4 pt-4 border-t border-zinc-800">
+                        <p class="text-xs font-semibold text-zinc-300 mb-2">Relevant Coursework:</p>
+                        <p class="text-xs text-zinc-500 leading-relaxed">
+                            Data Structures & Algorithms • Machine Learning • Probability & Statistics • Linear Algebra • Database Systems
+                        </p>
                     </div>
                 </div>
             </div>
 
             <!-- Certifications Box -->
             <div>
-                <h2 class="text-2xl font-bold text-white tracking-tight mb-6">Industry Credentials</h2>
+                <h2 class="text-2xl font-bold text-white tracking-tight mb-6">Professional Credentials</h2>
                 <div class="space-y-4">
                     <div class="flex items-center justify-between p-4 rounded-xl border border-zinc-900 bg-zinc-900/10 hover:border-zinc-800 transition-colors">
                         <div class="flex items-center gap-3">
                             <i data-lucide="award" class="h-5 w-5 text-purple-400"></i>
                             <div>
-                                <h4 class="text-sm font-semibold text-white">AWS Certified Cloud Practitioner</h4>
-                                <p class="text-xs text-zinc-500">Amazon Web Services (AWS)</p>
+                                <h4 class="text-sm font-semibold text-white">Machine Learning Specialization</h4>
+                                <p class="text-xs text-zinc-500">Coursera</p>
                             </div>
                         </div>
-                        <i data-lucide="external-link" class="h-4 w-4 text-zinc-600"></i>
                     </div>
                     <div class="flex items-center justify-between p-4 rounded-xl border border-zinc-900 bg-zinc-900/10 hover:border-zinc-800 transition-colors">
                         <div class="flex items-center gap-3">
                             <i data-lucide="award" class="h-5 w-5 text-pink-400"></i>
                             <div>
-                                <h4 class="text-sm font-semibold text-white">Meta Deep Learning Specialist Certificate</h4>
-                                <p class="text-xs text-zinc-500">Coursera Verified</p>
+                                <h4 class="text-sm font-semibold text-white">Python for Data Science</h4>
+                                <p class="text-xs text-zinc-500">Coursera</p>
                             </div>
                         </div>
-                        <i data-lucide="external-link" class="h-4 w-4 text-zinc-600"></i>
+                    </div>
+                    <div class="flex items-center justify-between p-4 rounded-xl border border-zinc-900 bg-zinc-900/10 hover:border-zinc-800 transition-colors">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="radio-receiver" class="h-5 w-5 text-indigo-400"></i>
+                            <div>
+                                <h4 class="text-sm font-semibold text-white">Domain Expertise</h4>
+                                <p class="text-xs text-zinc-500">Non-Destructive Evaluation (NDE), RF Sensor Data, DSP</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECURE CONTACT SECTION -->
+    <!-- CONTACT SECTION -->
     <section id="contact" class="bg-zinc-900/20 py-20 border-t border-zinc-900">
-        <div class="mx-auto max-w-5xl px-4">
-            <div class="grid gap-12 md:grid-cols-5">
-                <div class="md:col-span-2">
-                    <h2 class="text-2xl font-bold text-white tracking-tight">Connect with Me</h2>
-                    <p class="mt-2 text-sm text-zinc-400 leading-relaxed">
-                        Hiring groups, engineering teams, and recruiters can use this terminal route. Verification messages bridge immediately to active channels.
-                    </p>
-                    <div class="mt-8 space-y-4 text-sm text-zinc-400">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="mail" class="h-4 w-4 text-indigo-400"></i>
-                            <span>niranjan.kumar@email.com</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="map-pin" class="h-4 w-4 text-indigo-400"></i>
-                            <span>Mumbai, India</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Active Form Execution Block -->
-                <div class="md:col-span-3">
-                    <form action="https://formspree.io/f/your_formspree_id" method="POST" class="space-y-4">
-                        <div>
-                            <label for="name" class="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-2">Full Name</label>
-                            <input type="text" name="name" id="name" required class="w-full rounded-xl bg-zinc-950 border border-zinc-800 px-4 py-3 text-sm text-white placeholder-zinc-600 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-colors" placeholder="Jane Doe">
-                        </div>
-                        <div>
-                            <label for="email" class="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-2">Email Address</label>
-                            <input type="email" name="_replyto" id="email" required class="w-full rounded-xl bg-zinc-950 border border-zinc-800 px-4 py-3 text-sm text-white placeholder-zinc-600 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-colors" placeholder="jane@company.com">
-                        </div>
-                        <div>
-                            <label for="message" class="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-2">Message</label>
-                            <textarea name="message" id="message" rows="4" required class="w-full rounded-xl bg-zinc-950 border border-zinc-800 px-4 py-3 text-sm text-white placeholder-zinc-600 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-colors" placeholder="Hi Niranjan, let's explore an placement slot for our group..."></textarea>
-                        </div>
-                        <button type="submit" class="w-full rounded-xl bg-indigo-600 py-3 text-sm font-semibold text-white transition-all hover:bg-indigo-500 shadow-md shadow-indigo-600/10">
-                            Send Secure Entry
-                        </button>
-                    </form>
-                </div>
+        <div class="mx-auto max-w-5xl px-4 flex flex-col items-center text-center">
+            <h2 class="text-2xl font-bold text-white tracking-tight">Get In Touch</h2>
+            <p class="mt-2 text-sm text-zinc-400 max-w-xl">
+                Currently studying at IIT Guwahati and open to engineering, algorithmic, and data science discussions. Reach out via email or connect with me on LinkedIn.
+            </p>
+            
+            <div class="mt-8 flex flex-col sm:flex-row items-center gap-6">
+                <a href="mailto:kumarniranjan80323@gmail.com" class="flex items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-950 px-6 py-4 hover:border-indigo-500 hover:bg-zinc-900 transition-all">
+                    <i data-lucide="mail" class="h-5 w-5 text-indigo-400"></i>
+                    <span class="text-sm font-medium text-zinc-300">kumarniranjan80323@gmail.com</span>
+                </a>
+                <a href="tel:+917408833764" class="flex items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-950 px-6 py-4 hover:border-indigo-500 hover:bg-zinc-900 transition-all">
+                    <i data-lucide="phone" class="h-5 w-5 text-indigo-400"></i>
+                    <span class="text-sm font-medium text-zinc-300">+91-7408833764</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER WITH 2026 DATE STAMP -->
+    <!-- FOOTER -->
     <footer class="bg-zinc-950 border-t border-zinc-900/60 py-12">
         <div class="mx-auto max-w-5xl px-4 flex flex-col sm:flex-row items-center justify-between gap-6">
             <p class="text-xs text-zinc-500">&copy; 2026 Niranjan Kumar. Built with Tailwind CSS & Lucide.</p>
             <div class="flex gap-6 text-zinc-500">
-                <a href="#" class="hover:text-white transition-colors" target="_blank"><i data-lucide="github" class="h-5 w-5"></i></a>
-                <a href="#" class="hover:text-white transition-colors" target="_blank"><i data-lucide="linkedin" class="h-5 w-5"></i></a>
+                <a href="https://github.com/niranjan-74088" class="hover:text-white transition-colors" target="_blank"><i data-lucide="github" class="h-5 w-5"></i></a>
+                <a href="https://linkedin.com/in/niranjan-kumar-a35110276" class="hover:text-white transition-colors" target="_blank"><i data-lucide="linkedin" class="h-5 w-5"></i></a>
             </div>
         </div>
     </footer>
