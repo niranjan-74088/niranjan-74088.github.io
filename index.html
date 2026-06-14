@@ -17,7 +17,7 @@
 
     <nav class="sticky top-0 z-50 border-b border-zinc-800/50 bg-zinc-950/70 backdrop-blur-md">
         <div class="mx-auto flex max-w-6xl items-center justify-between p-4">
-            <a href="#" class="text-xl font-bold tracking-tight text-white bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">NIRANJAN.DEV</a>
+            <a href="#" class="text-xl font-bold tracking-tight text-white bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">NIRANJAN KUMAR</a>
             <div class="hidden space-x-6 text-sm font-medium text-zinc-400 md:flex">
                 <a href="#about" class="transition-colors hover:text-white">About</a>
                 <a href="#skills" class="transition-colors hover:text-white">Skills</a>
@@ -27,6 +27,52 @@
             <a href="#contact" class="rounded-full bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-200 border border-zinc-800 transition-all hover:bg-zinc-800 hover:border-zinc-700">Contact</a>
         </div>
     </nav>
+
+    <!-- HERO SECTION (UPDATED: Picture added on right side) -->
+<section class="relative mx-auto max-w-6xl px-4 py-24 md:py-32">
+    <!-- Subtle background glow (kept) -->
+    <div class="absolute top-1/4 -z-10 h-72 w-72 rounded-full bg-indigo-600/10 blur-[128px]"></div>
+    
+    <!-- FLEX CONTAINER: Sets up Text on Left, Image on Right on bigger screens -->
+    <div class="flex flex-col-reverse items-center gap-12 md:flex-row md:justify-between md:gap-16">
+        
+        <!-- [LEFT SIDE] Text Content Container -->
+        <div class="flex-1 text-center md:text-left space-y-4 max-w-2xl">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-400 border border-indigo-500/20">
+                <span class="h-1.5 w-1.5 rounded-full bg-indigo-400 animate-pulse"></span> Available for Fall 2026 Internships & Roles
+            </span>
+            
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
+                Hi, I'm <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">NIRANJAN Popat</span> <!-- I kept your updated name -->
+            </h1>
+            <p class="text-lg text-zinc-400 sm:text-xl leading-relaxed">
+                Computer Science student passionate about distributed systems, cloud computing, and engineering high-performance web applications.
+            </p>
+            
+            <div class="mt-10 flex flex-wrap gap-4 justify-center md:justify-start">
+                <a href="#projects" class="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 font-semibold text-white transition-all hover:bg-indigo-500 shadow-lg shadow-indigo-600/20">
+                    Explore Work <i data-lucide="arrow-right" class="h-4 w-4"></i>
+                </a>
+                <a href="#contact" class="inline-flex items-center gap-2 rounded-xl bg-zinc-900 px-6 py-3 font-semibold text-zinc-300 border border-zinc-800 transition-all hover:bg-zinc-800">
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+
+        <!-- [RIGHT SIDE] Image Container -->
+        <div class="flex-shrink-0 md:flex-1 flex justify-center md:justify-end relative">
+            <!-- This is your picture -->
+            <img 
+                src="image.png.png"  
+                alt="NIRANJAN Popat" 
+                class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-zinc-800 shadow-2xl shadow-indigo-600/10"
+            />
+            <!-- Extra effect: adds a glowing outline around picture on hover -->
+            <div class="absolute inset-0 rounded-full border border-indigo-500/0 hover:border-indigo-500/50 transition-all scale-105"></div>
+        </div>
+
+    </div>
+</section>
 
     <section class="relative mx-auto flex max-w-5xl flex-col items-center justify-center px-4 py-24 text-center md:py-32">
         <div class="absolute top-1/4 -z-10 h-72 w-72 rounded-full bg-indigo-600/10 blur-[128px]"></div>
